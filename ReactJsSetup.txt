@@ -25,3 +25,7 @@ Notes:-
 3) use babel-loader in webpack.config.js
 4) update scripts object value with "start": "webpack-dev-server --hot" in package.json 
 5) npm init/install/start
+
+
+minimize number of stateful components
+props are immutable
