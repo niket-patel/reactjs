@@ -1,0 +1,27 @@
+Install NodeJs
+
+mkdir reactApp
+cd reactApp
+npm init
+
+#npm install -g babel babel-cli
+
+#npm install --save-dev babel-core babel-loader babel-preset-react babel-preset-es2015
+
+npm install webpack --save
+npm install webpack-dev-server --save
+#npm install --save-dev webpack webpack-dev-server html-webpack-plugin
+
+npm install react --save
+npm install react-dom --save
+#npm install --save-dev react react-dom
+
+#npm run build && npm run git-commit && npm run git-push
+
+
+Notes:-
+1) create webpack-config.js for (Set Compiler, Server and Loaders).
+2) change absolute path with \\
+3) use babel-loader in webpack.config.js
+4) update scripts object value with "start": "webpack-dev-server --hot" in package.json 
+5) npm init/install/start
