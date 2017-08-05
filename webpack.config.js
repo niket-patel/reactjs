@@ -2,7 +2,7 @@ var config = {
    entry: './main.js',
 	
    output: {
-      path:'D:\\sample\\reactjs\\reactApp',
+      path:'/.\/',
       filename: 'index.js',
    },
 	
